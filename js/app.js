@@ -32,7 +32,7 @@ if (window.innerWidth <= 767) {
 // Изменение фото на мобилках =========================
 const introImg = document.querySelector('.intro__img');
 if (window.innerWidth <= 767) {
-	introImg.src = '../img/hero-mob.jpg';
+	introImg.src = 'img/hero-mob.jpg';
 }
 
 // Анимации при скролле ===============================
