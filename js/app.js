@@ -81,3 +81,12 @@ if (animItems.length > 0) {
 if (window.innerWidth < 767.98) {
 	setLeng.classList.remove('_anim-items', '_anim-no-hide')
 }
+
+// Preloader ==========================================
+window.onload = function () {
+	document.body.classList.add('loaded-hiding');
+	window.setTimeout(() => {
+		document.body.classList.add('loaded');
+		document.body.classList.remove('loaded-hiding')
+	}, 500);
+}
